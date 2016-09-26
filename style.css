@@ -1,28 +1,25 @@
-#div1 {
+h1 {
     position: relative;
     float: left;
     background: #eee;
-	padding: 10px;
+	padding: 35px;
 	text-align: center;
 	background-color: #4aaaa5;
 	color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
 	margin-left: 154px;
 	margin-right: 10px;
-	top: 0;
-	left: 0;
-	padding-left: 30px;
-	padding-right: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
 
 }
 
-.aboutsection {
-    position: relative;
+#aboutsection {
     float: left;
-    padding: 0px;
-    top: 0;
-	left: 0;
-	width: 100%;
+    padding: 0px 467px 0px 35px;
+    margin-left: 152px;
+	width: 10%;
    	text-align: left;
 	background-color: white;
 	color:#4aaaa5 ;
@@ -31,9 +28,39 @@
     border-color: red;
 }
 
+
+
+.maincontent {
+	position: relative;
+	clear: both;
+	width: 100%;
+	padding-top: 40px;
+	margin-right: 10px;
+	border-style: solid;
+	border-top-color: grey;
+    background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png)
+}
+img {
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-top: 20px;
+
+
+
+
+}
+
+
 .wrapper {
 	position: relative;
+	clear: both;
+	overflow: auto;
 	width: 650px;
+	margin-top: 30px;
 	margin-left: 154px;
 	margin-right: 500px;
 	padding: 20px;
@@ -42,22 +69,6 @@
     border-color: blue;
 }
 
-
-.maincontent {
-	position: relative;
-	clear: left;
-	width: 100%;
-	margin-right: 500px;
-	border-style: solid;
-	border-top-color: grey;
-    background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png)
-}
-img {
-    float: left;
-    margin-left: 0px;
-    margin-right: 20px;
-    padding-left: 0px;
-}
 body {background-color: #ffffff;
 }
 
@@ -72,7 +83,7 @@ body {background-color: #ffffff;
 }
 
 .connect { position: absolute;
-    top: 0;
+    top: 165px;
     left: 900px;
     width: 271px;
     height: 200px;
@@ -88,14 +99,16 @@ body {background-color: #ffffff;
 
 #greenbox{
 	padding: 5px;
+	width: 100%;
     background-color: #4aaaa5;
-    clear: left;
+    clear: both;
     
 }
 footer {
     padding: 1em;
+    width: 100%;
     color: white;
     background-color: #666666;
-    clear: left;
+    clear: both;
     text-align: center;
 }
