@@ -1,5 +1,6 @@
 #div1 {
     position: relative;
+    float: left;
     background: #eee;
 	padding: 10px;
 	text-align: center;
@@ -7,50 +8,90 @@
 	color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
 	margin-left: 154px;
-	margin-right: 1000px;
+	margin-right: 10px;
 	top: 0;
 	left: 0;
-	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+
 }
 
-.div2 {
+.aboutsection {
     position: relative;
-    background: #eee;
-	padding: 10px;
-	text-align: center;
-	background-color: #4aaaa5;
-	color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-	margin-left: 154px;
-	margin-right: 1000px;
-	top: 0;
+    float: left;
+    padding: 0px;
+    top: 0;
 	left: 0;
-	float: left;
+	width: 100%;
+   	text-align: left;
+	background-color: white;
+	color:#4aaaa5 ;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+	border-style: solid;
+    border-color: red;
 }
 
 .wrapper {
-	width: 1000px;
-	margin: 0 auto 0 56px;
+	position: relative;
+	width: 650px;
+	margin-left: 154px;
+	margin-right: 500px;
 	padding: 20px;
+	background-color: #ffffff;
+	border-style: solid;
+    border-color: blue;
+}
 
+
+.maincontent {
+	position: relative;
+	clear: left;
+	width: 100%;
+	margin-right: 500px;
+	border-style: solid;
+	border-top-color: grey;
+    background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png)
 }
 img {
     float: left;
-    margin: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
+    padding-left: 0px;
 }
 body {background-color: #ffffff;
 }
 
-nav {float: right;
-    margin: 0 0 10px 0px;
 
+#links {
+	float: left;
+	height: 100%;
+    margin: 45px 0px 0px 220px;
+    border-style: solid;
+    border-color: orange;
+    
 }
 
-aside {float: right;
-    margin: 0 0 10px 0px;
-
+.connect { position: absolute;
+    top: 0;
+    left: 900px;
+    width: 271px;
+    height: 200px;
+    background-color: #ffffff;
+    padding-left: 30px;
+	padding-right: 10px;
+    border-style: solid;
+    border-color: green;
+    text-align: center;
+    color:#4aaaa5 ;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+#greenbox{
+	padding: 5px;
+    background-color: #4aaaa5;
+    clear: left;
+    
+}
 footer {
     padding: 1em;
     color: white;
