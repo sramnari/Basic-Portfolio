@@ -31,8 +31,13 @@ h1 {
     background-color: white;
     color:#4aaaa5 ;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
 
-    
+#aboutsection:after {
+    content:' ';
+    display:block;
+    border:2px solid #eee;
+    margin-bottom: 10px;
 }
 
 .maincontent {
@@ -101,6 +106,7 @@ a {
     color:#4aaaa5 ;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
 
 #greenbox{
     clear: both;
